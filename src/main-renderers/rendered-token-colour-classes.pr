@@ -24,7 +24,6 @@ Rendered as:
 *}
 {[ let token = context /]}
 {[ inject "rendered-description" context token /]}
---{[ inject "rendered-name" context token /]}: {[ inject "rendered-value" context token /]};
 .ctds_c-{{ context.name }} { color: {[ inject "rendered-value" context token /]} };
 .ctds_bc-{{ context.name }} { border-color: {[ inject "rendered-value" context token /]} };
 .ctds_bg-{{ context.name }} { background-color: {[ inject "rendered-value" context token /]} };
